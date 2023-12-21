@@ -1,0 +1,8 @@
+FROM ubuntu 
+RUN mkdir /opt/class32
+RUN touch /opt/class32/jobs
+RUN mkdir /opt/class32/rich
+ADD . /opt/class32
+COPY . /opt/class32/rich
+CMD pwd  
+CMD ["echo", "I am rich"]

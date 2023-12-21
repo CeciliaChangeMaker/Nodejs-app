@@ -1,0 +1,3 @@
+FROM ubuntu
+ENTRYPOINT ["echo", "I am rich from ENTRYPOINT"]
+
